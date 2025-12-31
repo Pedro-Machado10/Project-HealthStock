@@ -39,7 +39,6 @@ Os membros do grupo são:
 
 Esta pasta arquiva a documentação dos projetos.
 
-
 Na pasta `docs`, há uma subpasta `images` que deve arquivar todas as
 imagens utilizadas para a elaboração do documento.
 
@@ -49,6 +48,10 @@ imagens utilizadas para a elaboração do documento.
 Este diretório armazena o código fonte do projeto e adota uma hierarquia
 básica de projetos Web simples, que utilizam as tecnologias HTML, CSS e
 JavaScript.
+
+## 📸 Demonstração da Interface
+Para visualizar prints de todas as telas do sistema, acesse nossa [Página de Demonstração](./INTERFACE.md).
+
 
 ### Links Úteis:
 

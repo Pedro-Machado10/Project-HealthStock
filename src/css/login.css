@@ -1,0 +1,87 @@
+/* =============================
+   HealthStock - Tela de Login
+   Escopo: .login-page
+   ============================= */
+
+/* Paleta de Cores do Sistema */
+:root {
+  --azul-escuro: #024059;
+  --cinza-claro: #EBF0F2;
+  --verde-escuro: #106973;
+  --verde-medio: #26A699;
+  --verde-claro: #91D9D2;
+}
+
+/* Fundo geral da página de login */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+}
+
+/* Cartão central */
+.login-page .login-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 640px;
+  padding: 0px;
+}
+
+/* Ícone do topo */
+.login-page .icon-sistema {
+  color: var(--verde-medio);
+}
+
+/* Navegação (login/cadastro) */
+.login-page .login-tabs .nav-link {
+  border-radius: 10px;
+  font-weight: 500;
+  color: var(--azul-escuro);
+}
+
+.login-page .login-tabs .nav-link.active {
+  background-color: var(--verde-medio);
+  color: white;
+}
+
+/* Inputs com ícones */
+.login-page .input-group-text {
+  background-color: var(--cinza-claro);
+  border-right: none;
+  color: var(--azul-escuro);
+}
+
+.login-page .form-control {
+  border-left: none;
+  background-color: #fff;
+}
+
+/* Botões */
+.login-page .btn-primary {
+  background-color: var(--verde-escuro);
+  border-color: var(--verde-escuro);
+}
+
+.login-page .btn-primary:hover {
+  background-color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
+}
+
+.login-page .btn-success {
+  background-color: var(--verde-medio);
+  border-color: var(--verde-medio);
+}
+
+.login-page .btn-success:hover {
+  background-color: var(--verde-escuro);
+  border-color: var(--verde-escuro);
+}
+
+.login-page .btn i {
+  margin-right: 6px;
+}

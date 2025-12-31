@@ -1,0 +1,97 @@
+/* =============================
+   HealthStock - Compras
+   ============================= */
+
+.card-compra {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  border-left: 4px solid var(--cor-secundaria);
+}
+
+.card-compra:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-compra .card-body {
+  background-color: var(--cor-clara);
+}
+
+.card-compra .card-title {
+  font-weight: bold;
+}
+
+.card-compra .status-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.status-pendente {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.status-aprovada {
+  background-color: #198754;
+  color: #fff;
+}
+
+.status-rejeitada {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.item-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item-row select,
+.item-row input {
+  flex: 1;
+}
+
+.remove-item-btn {
+  color: #dc3545;
+  background: none;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+.filter-btn.active {
+  background-color: var(--cor-primaria);
+  color: white !important;
+}
+
+#searchInput {
+  border-radius: 20px;
+}
+
+/* Botões de ação */
+.action-buttons {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Modal de edição */
+#editarModal .modal-footer {
+  justify-content: space-between;
+}

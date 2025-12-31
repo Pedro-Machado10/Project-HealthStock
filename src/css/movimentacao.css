@@ -1,0 +1,52 @@
+
+
+#add {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+
+  height: auto;
+  min-width: 190px;
+  max-width: 705px;
+}
+
+/* Rodapé do modal: alinhamento dos botões */
+.add-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Cores da tabela com classe .table-info (cabeçalho) */
+.table-info {
+  --bs-table-bg: #60BBBC;
+  --bs-table-color: #ffffff;
+}
+
+/* Remove margens padrão da tabela */
+.table {
+  margin: 0;
+}
+
+/* Tabelas com cantos arredondados */
+.table-rounded table {
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+/* Placeholder cinza para opções de <select> */
+select option.placeholder {
+  color: #999;
+}
+
+/* Estilo para selects inválidos (ex: não preenchidos) */
+select:invalid,
+select:not(:focus):invalid {
+  color: #999;
+}
+/* Quando a sidebar está colapsada */
+.sidebar.collapsed ~ #main-content {
+  margin-left: 70px;
+}

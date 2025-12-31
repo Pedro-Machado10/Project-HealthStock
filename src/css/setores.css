@@ -1,0 +1,61 @@
+/* estilos para a página setores */
+
+.main-content h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+input.form-control, select.form-select {
+  border-radius: 6px;
+}
+
+#tabelaSetores tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Estilos importados de movimentacao.css */
+
+.table-info {
+  --bs-table-bg: #60BBBC;
+  --bs-table-color: #ffffff;
+}
+
+.table {
+  margin: 0;
+}
+
+.table-rounded table {
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+

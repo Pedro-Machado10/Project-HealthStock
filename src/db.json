@@ -1,0 +1,563 @@
+{
+  "users": [
+    {
+      "id": "3548",
+      "name": "Fellipe Babeto",
+      "email": "fellipe@teste.com",
+      "password": "123456"
+    },
+    {
+      "id": "1f86",
+      "email": "ana@teste.com",
+      "password": "123456"
+    },
+    {
+      "id": "bfab",
+      "email": "pedro@teste.com",
+      "password": "123456"
+    },
+    {
+      "id": "4dd3",
+      "name": "Maria",
+      "email": "maria@teste.com",
+      "password": "123456"
+    }
+  ],
+  "insumos": [
+    {
+      "id": "9a19",
+      "nome": "Dipirona",
+      "descricao": "Remédio para dores leves",
+      "quantidade": 99,
+      "dataVencimento": "2025-11-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T12:33:40.255Z",
+      "criadoPor": "Desconhecido",
+      "dataCriacao": "2025-05-10T12:33:40.255Z"
+    },
+    {
+      "id": "f753",
+      "nome": "Aspirina",
+      "descricao": "Medicamento para dor e febre",
+      "quantidade": 46,
+      "dataVencimento": "2026-03-15",
+      "alteradoPor": {
+        "id": "4dd3",
+        "name": "Maria"
+      },
+      "dataAlteracao": "2025-05-10T12:55:30.359Z",
+      "criadoPor": {
+        "nome": "Desconhecido"
+      },
+      "dataCriacao": "2025-05-10T12:51:56.164Z"
+    },
+    {
+      "id": "med01",
+      "nome": "Paracetamol",
+      "descricao": "Analgésico e antitérmico 500mg",
+      "quantidade": 120,
+      "dataVencimento": "2026-02-28",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:00:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:00:00.000Z"
+    },
+    {
+      "id": "med02",
+      "nome": "Ibuprofeno",
+      "descricao": "Anti-inflamatório 400mg",
+      "quantidade": 80,
+      "dataVencimento": "2025-12-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:01:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:01:00.000Z"
+    },
+    {
+      "id": "soro01",
+      "nome": "Soro Fisiológico 0,9%",
+      "descricao": "Solução isotônica 500ml",
+      "quantidade": 50,
+      "dataVencimento": "2025-10-15",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:02:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:02:00.000Z"
+    },
+    {
+      "id": "soro02",
+      "nome": "Soro Glicosado 5%",
+      "descricao": "Solução intravenosa 500ml",
+      "quantidade": 40,
+      "dataVencimento": "2025-09-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:03:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:03:00.000Z"
+    },
+    {
+      "id": "vac01",
+      "nome": "Vacina Influenza",
+      "descricao": "Vacina contra gripe (dose única)",
+      "quantidade": 30,
+      "dataVencimento": "2025-08-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:04:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:04:00.000Z"
+    },
+    {
+      "id": "vac02",
+      "nome": "Vacina Hepatite B",
+      "descricao": "Vacina recombinante (10 doses)",
+      "quantidade": 25,
+      "dataVencimento": "2026-01-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:05:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:05:00.000Z"
+    },
+    {
+      "id": "sang01",
+      "nome": "Bolsa de Sangue A+",
+      "descricao": "Bolsa 450ml tipo A Rh positivo",
+      "quantidade": 5,
+      "dataVencimento": "2025-05-25",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:06:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:06:00.000Z"
+    },
+    {
+      "id": "sang02",
+      "nome": "Bolsa de Sangue O-",
+      "descricao": "Bolsa 450ml tipo O Rh negativo",
+      "quantidade": 3,
+      "dataVencimento": "2025-05-28",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:07:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:07:00.000Z"
+    },
+    {
+      "id": "med03",
+      "nome": "Amoxicilina",
+      "descricao": "Antibiótico 500mg",
+      "quantidade": 60,
+      "dataVencimento": "2025-12-15",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:08:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:08:00.000Z"
+    },
+    {
+      "id": "med04",
+      "nome": "Omeprazol",
+      "descricao": "Inibidor de bomba de prótons 20mg",
+      "quantidade": 75,
+      "dataVencimento": "2026-04-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:09:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:09:00.000Z"
+    },
+    {
+      "id": "med05",
+      "nome": "Losartana",
+      "descricao": "Anti-hipertensivo 50mg",
+      "quantidade": 90,
+      "dataVencimento": "2026-03-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:10:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:10:00.000Z"
+    },
+    {
+      "id": "soro03",
+      "nome": "Ringer Lactato",
+      "descricao": "Solução de reposição 500ml",
+      "quantidade": 35,
+      "dataVencimento": "2025-11-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:11:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:11:00.000Z"
+    },
+    {
+      "id": "vac03",
+      "nome": "Vacina Tétano",
+      "descricao": "Vacina antitetânica (dose única)   ",
+      "quantidade": 0,
+      "dataVencimento": "2026-02-28",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-06-23T20:19:45.985Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:12:00.000Z"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": "forn01",
+      "nome": "Laboratórios Vida",
+      "cnpj": "12.345.678/0001-90",
+      "email": "vida@laboratorios.com",
+      "telefone": "(11) 99999-0001",
+      "insumosFornecidos": [
+        "med01",
+        "med02",
+        "med03"
+      ],
+      "alteradoPor": {
+        "id": "4dd3",
+        "name": "Maria"
+      },
+      "dataAlteracao": "2025-06-17T18:43:18.506Z",
+      "cep": "08080-010",
+      "rua": "Rua Iguanara",
+      "numero": "60",
+      "bairro": "Parque Paulistano",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": "forn02",
+      "nome": "Farmacêutica São Lucas",
+      "cnpj": "23.456.789/0001-01",
+      "email": "lucas@farmaceutica.com",
+      "telefone": "(21) 98888-0002",
+      "insumosFornecidos": [
+        "soro01",
+        "soro02",
+        "soro03"
+      ],
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-19T22:33:36.694Z"
+    },
+    {
+      "id": "forn03",
+      "nome": "Imuniza Vacinas",
+      "cnpj": "34.567.890/0001-12",
+      "email": "contato@imuniza.com",
+      "telefone": "(31) 97777-0003",
+      "insumosFornecidos": [
+        "vac01",
+        "vac02",
+        "vac03"
+      ]
+    },
+    {
+      "id": "forn04",
+      "nome": "Hospitalar Brasil",
+      "cnpj": "45.678.901/0001-23",
+      "email": "vendas@hospitalarbr.com",
+      "telefone": "(41) 96666-0004",
+      "insumosFornecidos": [
+        "sang01",
+        "sang02",
+        "med04",
+        "med05"
+      ]
+    },
+    {
+      "id": "forn05",
+      "nome": "Genéricos Nacional",
+      "cnpj": "56.789.012/0001-34",
+      "email": "suporte@genericos.com",
+      "telefone": "(51) 95555-0005",
+      "insumosFornecidos": [
+        "9a19",
+        "f753",
+        "med01"
+      ],
+      "cep": "38705-484",
+      "rua": "Rua José Ilídio Pereira",
+      "numero": "15",
+      "bairro": "Afonso Queiroz",
+      "cidade": "Patos de Minas",
+      "estado": "MG",
+      "alteradoPor": {
+        "id": "4dd3",
+        "name": "Maria"
+      },
+      "dataAlteracao": "2025-06-18T16:48:11.672Z"
+    }
+  ],
+  "setores": [
+    {
+      "nome": "Administração",
+      "descricao": "Responsável por processos administrativos.",
+      "dataCriacao": "2024-01-10",
+      "status": "Ativo",
+      "responsavel": "Pedro",
+      "unidade": "UPA Centro",
+      "id": "1"
+    },
+    {
+      "id": "8281",
+      "nome": "UTI",
+      "descricao": "UTI",
+      "dataCriacao": "2025-06-02",
+      "status": "Ativo",
+      "responsavel": "Dr. Fellipe Babeto",
+      "unidade": "Hospital Central"
+    }
+  ],
+  "compras": [
+    {
+      "idSolicitacao": 101,
+      "dataSolicitacao": "2025-05-18T10:30:00",
+      "status": "REJEITADA",
+      "solicitante": {
+        "idUsuario": 12,
+        "nome": "Dra. Ana Souza"
+      },
+      "itensSolicitados": [
+        {
+          "idItem": "9a19",
+          "nomeItem": "Dipirona",
+          "quantidade": 50,
+          "unidadeMedida": "caixas",
+          "observacoes": "Com 20 comprimidos cada"
+        },
+        {
+          "idItem": "8b27",
+          "nomeItem": "Luvas de Procedimento",
+          "quantidade": 200,
+          "unidadeMedida": "unidades",
+          "observacoes": "Tamanho M"
+        }
+      ],
+      "justificativa": "Reposição de estoque para o ambulatório",
+      "dataNecessidade": "2025-05-25",
+      "aprovadoPor": {
+        "idUsuario": "3548",
+        "nome": "Fellipe Babeto",
+        "departamento": "Não informado"
+      },
+      "dataAprovacao": "2025-06-10T22:18:33.313Z",
+      "id": "f194"
+    },
+    {
+      "idSolicitacao": 102,
+      "dataSolicitacao": "2025-05-20T14:15:00",
+      "status": "APROVADA",
+      "solicitante": {
+        "idUsuario": 15,
+        "nome": "Dr. Carlos Mendes"
+      },
+      "itensSolicitados": [
+        {
+          "idItem": "7c36",
+          "nomeItem": "Soro Fisiológico 0,9%",
+          "quantidade": 30,
+          "unidadeMedida": "frascos",
+          "observacoes": "500ml"
+        }
+      ],
+      "justificativa": "Necessário para procedimentos de rotina na UTI",
+      "dataNecessidade": "2025-05-28",
+      "aprovadoPor": {
+        "idUsuario": 8,
+        "nome": "Fellipe Babeto"
+      },
+      "dataAprovacao": "2025-05-21T09:45:00",
+      "id": "e285"
+    },
+    {
+      "id": "bf33",
+      "idSolicitacao": 4288,
+      "dataSolicitacao": "2025-06-10T22:01:56.442Z",
+      "status": "PENDENTE",
+      "solicitante": {
+        "idUsuario": "3548",
+        "nome": "Fellipe Babeto"
+      },
+      "itensSolicitados": [
+        {
+          "idItem": "soro01",
+          "nomeItem": "Soro Fisiológico 0,9%",
+          "quantidade": "5",
+          "unidadeMedida": "caixa",
+          "observacoes": null
+        },
+        {
+          "idItem": "med05",
+          "nomeItem": "Losartana",
+          "quantidade": "6",
+          "unidadeMedida": "caixa",
+          "observacoes": null
+        }
+      ],
+      "justificativa": "Compras de rotina!",
+      "dataNecessidade": "2025-06-10",
+      "aprovadoPor": null,
+      "dataAprovacao": null
+    }
+  ],
+  "movimentacao": [
+    {
+      "id": "90ad",
+      "insumoId": "f753",
+      "quantidade_da_M": 2,
+      "data_M": "2025-06-15",
+      "origem": "Estoque",
+      "destino": "1",
+      "id_M": 1750024258832
+    },
+    {
+      "id": "f3a1",
+      "insumoId": "9a19",
+      "quantidade_da_M": 22,
+      "data_M": "2025-06-15",
+      "origem": "Estoque",
+      "destino": "1",
+      "id_M": 1750025213681
+    },
+    {
+      "id": "b2f3",
+      "insumoId": "f753",
+      "quantidade_da_M": 2,
+      "data_M": "2025-06-15",
+      "origem": "Estoque",
+      "destino": "1",
+      "id_M": 1750026095106
+    },
+    {
+      "id": "b34b",
+      "insumoId": "soro02",
+      "quantidade_da_M": 3,
+      "data_M": "2025-06-23",
+      "origem": "Estoque",
+      "destino": "1",
+      "id_M": 1750710021084
+    }
+  ],
+  "unidades": [
+    {
+      "id_unidade": "a1b2",
+      "nome": "Hospital Central",
+      "tipo": "Hospital",
+      "cnpj": "12.345.678/0001-99",
+      "telefone": "(31) 98765-4321",
+      "cep": "30140-110",
+      "numero": "500",
+      "endereco": "Rua Santa Rita Durão, Funcionários, Belo Horizonte - MG",
+      "data_cadastro": "2025-06-15",
+      "data_atualizacao": "2025-06-15",
+      "responsavel": "Fellipe Babeto",
+      "id": "48f6"
+    },
+    {
+      "id_unidade": "c3d4",
+      "nome": "Clínica Saúde Vida",
+      "tipo": "Clínica",
+      "cnpj": "98.765.432/0001-10",
+      "telefone": "(31) 91234-5678",
+      "cep": "30310-020",
+      "numero": "120",
+      "endereco": "Rua Outono, Carmo, Belo Horizonte - MG",
+      "data_cadastro": "2025-06-10",
+      "data_atualizacao": "2025-06-20",
+      "responsavel": "Fellipe Babeto",
+      "id": "0e7c"
+    },
+    {
+      "id_unidade": "e5f6",
+      "nome": "UPA Centro",
+      "tipo": "UPA",
+      "cnpj": "11.222.333/0001-44",
+      "telefone": "(31) 99876-5432",
+      "cep": "30120-040",
+      "numero": "350",
+      "endereco": "Rua dos Guaranis, Centro, Belo Horizonte - MG",
+      "data_cadastro": "2025-05-30",
+      "data_atualizacao": "2025-06-18",
+      "responsavel": "Fellipe Babeto",
+      "id": "ee65"
+    }
+  ]
+}

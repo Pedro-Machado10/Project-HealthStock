@@ -1,0 +1,75 @@
+/* =============================
+   HealthStock - Estilos Globais
+   ============================= */
+
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, var(--azul-escuro), var(--verde-claro));
+    color: #024059;
+  }
+  
+  /* Cores padrão como variáveis CSS */
+  :root {
+    --cor-primaria: #024059;
+    --cor-secundaria: #106973;
+    --cor-destaque: #26A699;
+    --cor-clara: #EBF0F2;
+    --cor-suave: #91D9D2;
+  }
+  
+  /* Links */
+  a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--cor-destaque);
+    text-decoration: underline;
+  }
+  
+  /* Botões padrão */
+  .btn-primary {
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+  }
+  
+  .btn-success {
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+  }
+  
+  .btn-success:hover {
+    background-color: var(--cor-suave);
+    border-color: var(--cor-suave);
+    color: #024059;
+  }
+  
+  /* Títulos */
+  h1, h2, h3, h5 {
+    color: var(--cor-primaria);
+  }
+
+  h4 {
+    color: var(--cor-destaque);
+  }
+  
+  /* Cards padrão */
+  .card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(2, 64, 89, 0.1);
+  }
+  
